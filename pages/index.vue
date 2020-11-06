@@ -11,14 +11,14 @@
   </div>
 </template>
 <script>
-import NavbarSection from "~/components/atoms/NavbarSection.vue"
-import Intro from "~/components/atoms/Intro.vue"
-import AboutSection from "~/components/atoms/AboutSection.vue"
-import ProdukSection from "~/components/atoms/ProdukSection.vue"
-import BenefitSection from "~/components/atoms/BenefitSection.vue"
-import Flow from "~/components/atoms/Flow.vue"
-import TestimoniSection from "~/components/atoms/TestimoniSection.vue"
-import Footer from "~/components/atoms/Footer.vue"
+import NavbarSection from "~/components/organisms/NavbarSection.vue"
+import Intro from "~/components/organisms/Intro.vue"
+import AboutSection from "~/components/organisms/AboutSection.vue"
+import ProdukSection from "~/components/organisms/ProdukSection.vue"
+import BenefitSection from "~/components/organisms/BenefitSection.vue"
+import Flow from "~/components/organisms/Flow.vue"
+import TestimoniSection from "~/components/organisms/TestimoniSection.vue"
+import Footer from "~/components/organisms/Footer.vue"
 export default {
   components: {
     NavbarSection: NavbarSection,
