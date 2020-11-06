@@ -5,7 +5,10 @@
         <div class="intro-middle-left text-white">
             <h1>Selamat Datang di Website Kami</h1>
             <p>Pelayanan Penjualan Madu Secara Online. Terbukti, Terpercaya dan Berkualitas. Untuk Pemesanan Silahkan Klik di Bawah Ini</p>
-            <button type="submit" class="btn btn-warning text-white"><b>BELI SEKARANG</b></button>
+            <!-- <button type="submit" class="btn btn-warning text-white"><b>BELI SEKARANG</b></button> -->
+            <Button 
+                titleBtn="BELI SEKARANG"
+            />
         </div>
         <div class="intro-middle-right">
             <img src="~/assets/image/honey2.jpg" style="width: 450px; height: 400px;" alt="not found" class="image">
@@ -17,8 +20,11 @@
 
 <script>
 import Title from '~/components/atoms/Title.vue'
+import Button from '~/components/atoms/Button.vue'
+
 export default {
     Title: Title,
+    Button: Button,
 }
 </script>
 
