@@ -1,5 +1,7 @@
 <template>
     <section class="intro">
+        <Title title="Produk Kami"/>
+        <!-- <h3 class="card-title">Produk Kami</h3> -->
         <div class="intro-middle-left text-white">
             <h1>Selamat Datang di Website Kami</h1>
             <p>Pelayanan Penjualan Madu Secara Online. Terbukti, Terpercaya dan Berkualitas. Untuk Pemesanan Silahkan Klik di Bawah Ini</p>
@@ -14,8 +16,9 @@
 </template>
 
 <script>
+import Title from '~/components/atoms/Title.vue'
 export default {
-
+    Title: Title,
 }
 </script>
 
