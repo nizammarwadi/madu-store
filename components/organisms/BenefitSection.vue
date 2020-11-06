@@ -130,5 +130,8 @@ body {
         margin: 0px;
         padding: 0px;
     }
+    .whyus-one-img {
+        width: 100% !important;
+    }
 }
 </style>

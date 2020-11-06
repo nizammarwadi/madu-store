@@ -1,8 +1,7 @@
 <template>
     <section class="intro">
-        <Title title="Produk Kami"/>
-        <!-- <h3 class="card-title">Produk Kami</h3> -->
         <div class="intro-middle-left text-white">
+            <!-- <Title title="Produk Kami"/> -->
             <h1>Selamat Datang di Website Kami</h1>
             <p>Pelayanan Penjualan Madu Secara Online. Terbukti, Terpercaya dan Berkualitas. Untuk Pemesanan Silahkan Klik di Bawah Ini</p>
             <!-- <button type="submit" class="btn btn-warning text-white"><b>BELI SEKARANG</b></button> -->
@@ -57,13 +56,19 @@ export default {
     }
     @media(max-width: 600px) {
         .intro-middle-right .image {
-            display: none;
+            width: 100% !important;
+            height: 300px;
+            padding: 50px;
         }
         .intro-middle-left {
+            width: 100%;
+            padding: 0 16px;
             text-align: center;
         }
         .intro{
+            margin-top: 20px;
             max-width: 100%;
+            display: block;
         }
     }
 
